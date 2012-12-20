@@ -27,6 +27,15 @@
   "scripts": {
     "test": "grunt test"
   },
+  "dependencies": {
+    "openid": "= 0.3.2",
+    "passport": ">= 0.1.3",
+    "passport-local": ">= 0.1.0",
+    "passport-google-oauth": ">= 0.1.2",
+    "passport-yahoo": ">=0.1.0",
+    "passport-facebook": ">=0.1.1",
+    "passport-twitter": ">=0.1.0",
+  },
   "devDependencies": {
     "grunt": "~0.3.17"
   },
