@@ -20,7 +20,7 @@
       "url": "https://github.com/Aomitayo/expressive-auth/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/expressive-auth",
+  "main": "index.js",
   "engines": {
     "node": ">= 0.6.0"
   },
@@ -34,7 +34,8 @@
     "passport-google-oauth": ">= 0.1.2",
     "passport-yahoo": ">=0.1.0",
     "passport-facebook": ">=0.1.1",
-    "passport-twitter": ">=0.1.0"
+    "passport-twitter": ">=0.1.0",
+    "debug": "~0.7.0"
   },
   "devDependencies": {
     "grunt": "~0.3.17"
